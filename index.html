@@ -3,7 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Abhik Chakraborty – Software Engineer</title>
+<title>Abhik Chakrabortty – Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Abhik Chakrabortty, a full-stack developer (React, Node.js, ASP.NET Core) based in Howrah, West Bengal. Open to software engineering roles.">
+<meta name="theme-color" content="#5d7545">
+<meta property="og:title" content="Abhik Chakrabortty – Full-Stack Developer">
+<meta property="og:description" content="Streaming, e-commerce and finance apps built end to end. Hackathon winner. Open to software engineering roles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#f3f2ee;--fg:#111;--mute:#6b6b66;--line:rgba(0,0,0,.14);--acc:#0e5484;--wire:#0e5484;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a0a0a;--fg:#f1f0ec;--mute:#8d8d87;--line:rgba(255,255,255,.16);--acc:#6cb4ee;--wire:#6cb4ee}}
@@ -122,24 +128,35 @@ body:not(.ready) #gl{opacity:0!important}
 #atm:after{content:"";position:absolute;inset:0;background:#18342a;opacity:var(--d,0)}
 nav{mix-blend-mode:normal;color:var(--fg)}
 @media (pointer:fine){#cur{mix-blend-mode:normal}}
+.skip{position:fixed;left:12px;top:-60px;z-index:200;background:#fff;color:#111;padding:10px 14px;border-radius:6px;text-decoration:none}.skip:focus{top:12px}
+#grain{display:none}
+@media (pointer:fine){body,a{cursor:auto}a{cursor:pointer}#cur{display:none}}
+:root,:root:not([data-theme="light"]),:root[data-theme="dark"]{--bg:#5d7545;--mute:rgba(247,249,238,.84)}
+#atm{background:linear-gradient(180deg,#7d9858 0%,#5f7847 45%,#475c36 100%)}
+.sub{max-width:44ch;line-height:1.5}
+.cta{display:flex;gap:14px;margin-top:4vh;flex-wrap:wrap}.cta a{padding:13px 24px;border-radius:999px;border:1px solid var(--fg);color:var(--fg);text-decoration:none;font-size:15px;font-weight:500;transition:background .3s,color .3s,border-color .3s}
+.cta a:first-child{background:var(--fg);color:#2d3d22}.cta a:hover{background:var(--acc);color:#2d3d22;border-color:var(--acc)}
+.edu{margin-top:3vh}
 </style>
 </head>
 <body>
-<div id="pre"><div class="pn">Abhik Chakraborty, portfolio 2026</div><div class="pc">0</div></div>
+<a class="skip" href="#about">Skip to content</a>
+<div id="pre"><div class="pn">Abhik Chakrabortty, portfolio 2026</div><div class="pc">0</div></div>
 <div id="grain"></div><div id="prog"></div><div id="cur"><i></i></div><div id="pv"></div>
 <div id="atm"></div>
 <canvas id="gl"></canvas>
-<nav><b>Abhik Chakraborty</b><div><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
+<nav><b>Abhik Chakrabortty</b><div><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
 <main>
 <section class="hero">
-<h1><span><i>Abhik</i></span><span><i>Chakraborty</i></span></h1>
-<p class="sub">Full-stack developer from Howrah. <b>Final-year B.Tech (IT)</b>, building streaming, e-commerce and finance apps.</p>
+<h1><span><i>Abhik</i></span><span><i>Chakrabortty</i></span></h1>
+<p class="sub">Full-stack developer building streaming, e-commerce and finance applications. B.Tech (IT) graduate, open to software engineering roles.</p>
+<div class="cta"><a href="#work">View projects</a><a href="#contact">Get in touch</a></div>
 </section>
 
 <div class="mq" aria-hidden="true"><div class="mqt"><span>ASP.NET Core</span><span>React</span><span>Node.js</span><span>MongoDB</span><span>SQL Server</span><span>HLS streaming</span><span>JWT</span></div></div>
 <section id="about" class="about">
 <h2 class="rv">I build things that work end to end.</h2>
-<p class="rv">From an ffmpeg pipeline that turns uploads into HLS streams to JWT-secured dashboards, I like the full path from database to pixel. Hackathon winner, open-source organizer, looking for my first software engineering role.</p>
+<p class="rv">Full-stack developer and B.Tech (IT) graduate of Meghnad Saha Institute of Technology, Kolkata. I build web applications end to end: React and Node.js front ends and APIs, ASP.NET Core back ends, secured with JWT. First place at the SAP Hackfest Hackathon 2025 regional round.</p>
 <dl class="skills rv">
 <div><dt>Languages</dt><dd>C, C++, C#, JavaScript, SQL</dd></div>
 <div><dt>Frontend</dt><dd>React.js, Tailwind CSS, Bootstrap, Blazor, HTML, CSS</dd></div>
@@ -147,6 +164,7 @@ nav{mix-blend-mode:normal;color:var(--fg)}
 <div><dt>Databases</dt><dd>SQL Server, MongoDB</dd></div>
 <div><dt>Tools</dt><dd>Git, GitHub, Postman, ffmpeg, Cloudinary, Vercel, Azure DevOps</dd></div>
 </dl>
+<dl class="skills edu rv"><div><dt>University</dt><dd>B.Tech in Information Technology (graduated 2026), Meghnad Saha Institute of Technology, Kolkata, CGPA 7.43</dd></div><div><dt>Class 12</dt><dd>Bantra Madhusudan Palchowdhury High School, Howrah (2022), 78.86%</dd></div></dl>
 </section>
 
 <section id="work">
@@ -170,10 +188,11 @@ nav{mix-blend-mode:normal;color:var(--fg)}
 <section id="contact" class="contact">
 <h2 class="rv">Let’s work together.</h2>
 <p class="rv" style="margin-top:5vh"><a class="big" href="mailto:abhik16chakrabortty@gmail.com">abhik16chakrabortty@gmail.com</a></p>
+<p class="rv" style="margin-top:4vh;color:var(--mute)">Based in Howrah, West Bengal, India. Available for full-time software engineering roles.</p>
 <div class="links rv"><a href="https://github.com/myname-abhik" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/abhikchakrabortty/" target="_blank" rel="noopener">LinkedIn</a></div>
 </section>
 </main>
-<footer>© 2026 Abhik Chakraborty. 3D by three.js, GSAP ScrollTrigger and Lenis.</footer>
+<footer>© 2026 Abhik Chakrabortty. Built with three.js, GSAP and Lenis.</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -264,7 +283,7 @@ var b=document.body,pre=document.getElementById('pre'),pc=pre.querySelector('.pc
 function go(){b.classList.add('ready');b.classList.remove('ld')}
 if(!window.gsap){pre.remove();go();return}
 b.classList.add('ld');
-gsap.to(o,{v:100,duration:rm?.2:1.8,ease:'power2.inOut',onUpdate:function(){pc.textContent=Math.round(o.v)},onComplete:function(){gsap.to(pre,{yPercent:-100,duration:rm?.1:1.1,ease:'power4.inOut',onStart:function(){setTimeout(go,rm?0:450)},onComplete:function(){pre.remove()}})}});
+gsap.to(o,{v:100,duration:rm?.2:1.0,ease:'power2.inOut',onUpdate:function(){pc.textContent=Math.round(o.v)},onComplete:function(){gsap.to(pre,{yPercent:-100,duration:rm?.1:1.1,ease:'power4.inOut',onStart:function(){setTimeout(go,rm?0:450)},onComplete:function(){pre.remove()}})}});
 document.querySelectorAll('h2').forEach(function(h){var n=0;h.classList.remove('rv');h.classList.add('sw');h.setAttribute('aria-label',h.textContent);h.innerHTML=h.textContent.split(' ').map(function(w){return '<span aria-hidden="true"><i style="--i:'+(n++)+'">'+w+'</i></span>'}).join(' ');sio.observe(h)});
 var prog=document.getElementById('prog'),mq=document.querySelector('.mqt'),mp=0,last=scrollY,sk=0;
 mq.innerHTML+=mq.innerHTML;
